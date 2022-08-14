@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.header{
+    background: url(assets/main-bg.jpg) center center ;
+    background-size:cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.7);
+    font-family: 'open sans';
+    font-size: 15px ;
+}
+#logo {
+    width: 50px;
+}
+.text-menu{
+    color: white
+}
+
+.title {
+    font-family: 'bebas neue';
+    font-weight: 600;
+    font-size: 70px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin-top: 100px;
+} 
+
+.btn {
+    font-family: 'open sans';
+    font-size: 15px;
+}
+#page-2 {
+    background: url(assets/the-games-bg.jpg);
+    background-size:cover;
+    background-position: center;
+    min-height: 150vh;
+    color:aliceblue;
+    padding-top: 200px;
+    font-size: 25px;
+    font-family: 'open sans';
+    letter-spacing: 3px;
+}
+.container {
+    width: 100%
+}
+#page-3 {
+    background: url(assets/features.jpg);
+    background-size:cover;
+    min-height: 150vh;
+    color: aliceblue;
+    padding-top: 100px;
+    padding-right: 300px;
+    font-family: 'open sans';
+    letter-spacing: 2px;  
+}
+
+#page-4{
+    background: url(assets/requirements.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 150vh;
+    color: aliceblue;
+    font-family: 'open sans';
+}
+#page-5{
+    background: url(assets/top-score-bg.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 150vh;
+    color:aliceblue;
+}
+.container-score {
+    padding-top: 30%;
+}
+.card img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.card-title {
+    width: 11rem;
+    position: absolute;
+}
+
+.card-subtitle {
+    padding-top: 2rem;
+}
+
+.card {
+    background: rgba(29, 30, 31, 0.8); 
+    border-radius: 10px;
+    width: 300px;
+}
+.card-twitter {
+    display: inline;
+    max-width: 20px;
+    max-height: 15px;
+    left: 5rem;
+    position: relative;
+}
+
+.card-name {
+    padding-right: 1rem;
+}
+
+.main-card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.top-score {
+    left: 50%;
+    position: relative;
+    max-width: 40px;
+}
+
+.profile {
+    position: relative;
+    width: 5rem;
+}
+.image {
+    width: 100%;
+    position: relative;
+}
+.ellipse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -45%);
+}
+#testi {
+    padding-bottom: center;
+}
+
+#news {
+    height: 150vh;
+    background-image: url(assets/newsletter.png);
+    background-size: cover;
+    background-position: center;
+}
+.skull {
+    display: flex;
+    padding-left: 15rem;
+    padding-top: 5rem;
+}
+
+.form-floating {
+    display: inline-flex;
+    width: 100%;
+}
+
+.form-floating input {
+    max-width: 55%;
+    border-color: rgba(0, 128, 0, 0.25);
+}
+
+.page-footer {
+    padding-top: 7rem;
+    max-width: 90%;
+    margin-left: 5%;
+    align-items: center;
+}
+
+.footer-menu {
+    margin-left: 10%;
+    padding-left: 10%;
+}
+.vertical-footer-bottom {
+    display: flex;
+    position: absolute;
+    top: 40vh;
+    width: 97vw;
+    justify-content: center;
+}
